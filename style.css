@@ -1,0 +1,298 @@
+.navbar-mine
+{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+.navbar-brand-mine
+{
+	color: #ff305b !important;
+}
+.active-mine
+{
+	color: #ff305b !important; 
+}
+.nav-link-mine
+{
+	color: #fff;
+}
+.nav-link-mine:hover
+{
+	color: #ff305b !important;
+	transition: color 0.4s ease 0.1s;
+}
+.scroll
+{
+	background-color: #555555 !important;
+}
+.flod
+{
+	height: 100vh;
+	background-image: url(img/slider/1.jpg);
+}
+.flod-overlay
+{
+	background-color: rgba(0,0,0,0.8);
+}
+.flod-overlay h2
+{
+	color: #ff305b;
+	font-size: 4rem;
+}
+/*End of HOME SECTION*/
+
+/*PORFILE SECTION*/
+
+
+.container-mine
+{
+	width: 60%;
+}
+.about-section .about-layer
+{
+	border: solid 10px #555555;
+	border-radius: 8px;
+	position: relative;
+}
+.img-box
+{
+	position: relative;
+}
+.img-box 
+{
+	top: 24px;
+	left: 24px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.about-overlay
+{
+	position: absolute;
+	width: 95%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	top: 100%;
+	left: 13px;
+	transition: top 0.6s ease;
+	border-radius: 8px;
+}
+.img-box:hover .about-overlay
+{
+	top: 0%;
+}
+.about-overlay i
+{
+	font-size: 20px;
+	color: #fff;
+	padding: 0 8px;
+	transition: color 0.3s ease 0.1s;
+}
+
+.caption-layer h2
+{
+	border-left: #ff305b solid 4px;
+	line-height: 25px;
+	padding-left: 10px;
+}
+.caption-layer .paragraph
+{
+	border-bottom: dashed 0.5px #555555;
+	margin-top: 1.5rem;
+}
+.caption-link
+{
+	color: #999999
+}
+.caption-link:hover
+{
+	color: #999999;
+	text-decoration: none;
+}
+.btns-connection .btn-mine
+{
+	background-color: #ff305b;
+	color: #fff;
+}
+.btns-connection .btn-mine:hover
+{
+	background-color: orange;
+}
+
+
+/*SERVICES SECTION*/
+.services-section
+{
+	background-color: rgba(200,200,200,0.3);
+}
+.services-section i
+{
+	color: #ff305b;
+	transition: 0.5s;
+}
+.services-section .services-layer
+{
+	transition: all 0.3s ease;
+}
+.services-section .services-layer:hover
+{
+	background-color: #ffffff;
+}
+.services-section .services-layer:hover i
+{
+	transform: scale(1.2);
+}
+
+/*STYLING OF PORTFOILIO SECTION*/
+
+
+.products-box
+{
+	position: relative;
+}
+
+.products-overlay
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	transition: all 0.3s ease-in-out;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.products-box:hover .products-overlay
+{
+	background-color: rgba(0,0,0,0.5);
+}
+.products-overlay i
+{
+	margin-right: 10px;
+	color: #ff305b;
+	display: none;
+}
+.products-box:hover i
+{
+	display: block;
+	transition: 0.3s ease-in-out;
+}
+.link
+{
+	color: #000;
+}
+.link:hover
+{
+	color: ##ff305b !important;
+}
+.nav-link-mine1
+{
+	color: #000;
+	margin-right: 10px;
+	transition: color 0.4s ease;
+}
+.nav-link-mine1:hover
+{
+	color: #ff305b;
+}
+
+
+
+/*SEEEEEECTIIIIOOOOON*/
+.counter-section
+{
+	background-color: rgba(200,200,200,0.3);
+}
+
+.counter-section i
+{
+	color: #ff305b;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+/*BLOG SECTION STYLING*/
+
+
+.blog-section
+{
+	background-color: rgba(200,200,200,0.3)
+}
+.blog-layers
+{
+	background-color: #ffffff;
+}
+.blog-layers p
+{
+	margin-left: 1rem;
+	margin-top: 1rem;
+	padding-right: 10px;
+}
+.blog-layers a
+{
+	margin-left: 1rem;
+}
+.blog-layers a:hover
+{
+	color: #ff305b;
+}
+.blog-section .visit
+{
+	color: #000;
+
+}
+.blog-section .visit:hover
+{
+	color: #ff305b;
+	text-decoration: none;
+}
+
+/*CONTACT US SECTION STYLYING*/
+
+.contact-section .container
+{
+	width: 50%;
+}
+.contact-section .name
+{
+	width: 70%
+}
+.Subject-bar
+{
+	width: 98%
+}
+.btn-send
+{
+	background-color: #ff305b;
+	color: #FFF;
+}
+.btn-send:hover
+{
+	background-color: darkorange;
+	color: #fff;
+}
+.copyright
+{
+	color: #ff305b;
+	transition: color 0.3s ease;
+}
+.copyright:hover
+{
+	color: #ff305b;
+}
+
+.profile0
+{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+
+@media (max-width: 991.98px) { 
+	.about-section .about-layer
+	{
+		border:none;
+	}
+ }
